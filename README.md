@@ -16,6 +16,9 @@ I engineered an end-to-end data pipeline to automatically parse and format the d
 2. **Data Unification:** Built synonym dictionaries to instantly convert messy variations (e.g., `"BROWN/COFFEE"`) into a single, clean standard (`"Brown"`). Also enforced strict uniform spacing (e.g., converting `"1.5L"` to `"1.5 L"`).
 3. **Odoo Matrix Generation:** Programmed grouping logic to identify products with multiple variants, automatically designating the first item as the "Parent" row (containing the global rules like Product Type, Description, and Category) while formatting the remaining items as "Child" variants (containing only Barcodes and Prices).
 4. **Multi-Tab Excel Output:** Automated the export to generate both the `Template for products` and the required `Product Attributes` definitions tab in a single `.xlsx` file.
+<img width="841" height="243" alt="Screenshot 2026-05-17 at 10 29 22" src="https://github.com/user-attachments/assets/fdf3401a-a257-4efa-a15f-d4450622ccad" />
+<img width="810" height="166" alt="Screenshot 2026-05-17 at 10 28 22" src="https://github.com/user-attachments/assets/5ff92aa8-7765-419e-a51f-25a4612839de" />
+
 
 ## Tech Stack
 * **Language:** Python
